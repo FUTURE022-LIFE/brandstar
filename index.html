@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '949667338033274');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=949667338033274&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>毛星球｜行政客服 招募落地頁</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary-color: #202020;
+            --accent-color: #D9AC48; /* 溫潤金棕色 */
+            --bg-color: #FDFBFA;    /* 優雅米白 */
+            --border-color: rgba(32, 32, 32, 0.08);
+            --text-muted: #727272;
+        }
+
+        body {
+            font-family: `Poppins`, `Noto Sans TC`, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        .section-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        .hero-title {
+            letter-spacing: 0.15em;
+            line-height: 1.4;
+        }
+
+        .cta-button {
+            background-color: var(--primary-color);
+            color: white;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .cta-button:hover {
+            background-color: #4D4D4D;
+            transform: translateY(-2px);
+        }
+
+        .card-border {
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            background: white;
+        }
+
+        .accent-text {
+            color: var(--accent-color);
+        }
+
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 16px;
+        }
+
+        /* 采采風格裝飾 */
+        .decoration-line {
+            width: 40px;
+            height: 1px;
+            background-color: var(--accent-color);
+            margin: 20px auto;
+        }
+
+        .kuse-branding {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            padding: 20px 0;
+        }
+
+        .kuse-branding:hover {
+            color: var(--primary-color);
+        }
+
+        .kuse-branding svg {
+            height: 1.2em;
+        }
+
+        /* 加載動畫 */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease forwards;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section (Text Only) -->
+    <header class="bg-white border-b border-[rgba(32,32,32,0.05)]">
+        <div class="section-container text-center py-20 animate-fade-in">
+            <p class="text-[12px] uppercase tracking-[0.3em] mb-4 text-[#9C9C9C]">Career Opportunity</p>
+            <h1 class="hero-title text-3xl md:text-4xl font-bold mb-6">
+                毛星球<br>
+                <span class="accent-text">行政客服</span> 誠徵中
+            </h1>
+            <div class="decoration-line"></div>
+            <p class="text-[15px] leading-relaxed text-[#4D4D4D] mb-10 px-4">
+                用愛守護毛孩的每一餐，成為家長最可靠的後盾。<br>
+                我們在尋找細心專業的你，加入這份溫暖的志業。
+            </p>
+            <a href="https://lin.ee/Wm6I3PJ" class="cta-button inline-flex items-center justify-center px-10 py-4 rounded-full font-semibold tracking-wider text-sm">
+                立即點擊應徵
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Brand Promise -->
+        <section class="section-container">
+            <div class="text-center mb-12">
+                <h2 class="text-xl font-bold mb-4 tracking-widest">品牌承諾</h2>
+                <p class="text-[14px] leading-7 text-[#4D4D4D] text-justify">
+                    在毛星球，我們不只研發寵物食品，更是在傳遞一種對家人的承諾。從乾糧的成分配方到罐罐的適口性，我們堅持給毛孩最純粹、最健康的守護。
+                </p>
+            </div>
+
+            <!-- Middle Image with Base64 Logic Placeholder -->
+            <div class="image-container mb-12 shadow-sm border border-[rgba(32,32,32,0.05)]">
+                <img id="main-image" src="https://api.kuse.ai/api/folder/v1/file/5862901076ba6f53da43357a8860bf3055107872ec1038a5bdc61b6c2e7ce072_3027764.jpeg" alt="毛星球招募" class="w-full h-auto block opacity-0 transition-opacity duration-1000">
+                <div id="image-loader" class="absolute inset-0 flex items-center justify-center bg-[#F5F5F5]">
+                    <div class="w-6 h-6 border-2 border-gray-300 border-t-[#D9AC48] rounded-full animate-spin"></div>
+                </div>
+            </div>
+
+            <p class="text-center italic text-[15px] text-[#4D4D4D] mb-16">
+                「什麼？在家竟然能用對毛孩的愛發現新價值！」
+            </p>
+        </section>
+
+        <!-- Job Content -->
+        <section class="bg-[#F8F6F4] py-12">
+            <div class="section-container">
+                <h3 class="text-lg font-bold mb-8 text-center tracking-[0.2em]">工作內容</h3>
+                <div class="grid gap-4">
+                    <div class="card-border p-5 flex items-start gap-4">
+                        <span class="text-[12px] bg-[#EEEEEE] text-[#9C9C9C] px-2 py-1 rounded">01</span>
+                        <div>
+                            <h4 class="font-bold mb-1">產品選購建議</h4>
+                            <p class="text-xs text-[#727272]">依照毛孩狀況，私訊推薦最適合的乾糧或罐罐</p>
+                        </div>
+                    </div>
+                    <div class="card-border p-5 flex items-start gap-4">
+                        <span class="text-[12px] bg-[#EEEEEE] text-[#9C9C9C] px-2 py-1 rounded">02</span>
+                        <div>
+                            <h4 class="font-bold mb-1">訂單細節處理</h4>
+                            <p class="text-xs text-[#727272]">核對訂單內容與資料，確保補給品精準出貨</p>
+                        </div>
+                    </div>
+                    <div class="card-border p-5 flex items-start gap-4">
+                        <span class="text-[12px] bg-[#EEEEEE] text-[#9C9C9C] px-2 py-1 rounded">03</span>
+                        <div>
+                            <h4 class="font-bold mb-1">物流動態回報</h4>
+                            <p class="text-xs text-[#727272]">隨時更新物流進度，讓家長不再焦急等待</p>
+                        </div>
+                    </div>
+                    <div class="card-border p-5 flex items-start gap-4">
+                        <span class="text-[12px] bg-[#EEEEEE] text-[#9C9C9C] px-2 py-1 rounded">04</span>
+                        <div>
+                            <h4 class="font-bold mb-1">疑難雜症解答</h4>
+                            <p class="text-xs text-[#727272]">回答成分、保存方式或品牌活動疑問</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center text-[13px] mt-8 text-[#9C9C9C]">很多時候，你就是毛孩家長們最專業的諮詢樹洞。</p>
+            </div>
+        </section>
+
+        <!-- Info Grid: Time & Salary -->
+        <section class="section-container py-16">
+            <div class="grid grid-cols-1 gap-12">
+                <!-- Time Allocation -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6 flex items-center gap-2">
+                        <span class="w-1 h-6 bg-[#D9AC48]"></span> 時間分配
+                    </h3>
+                    <ul class="space-y-4 text-[14px]">
+                        <li class="flex justify-between border-b border-[rgba(32,32,32,0.05)] pb-2">
+                            <span class="text-[#727272]">高效微工作</span>
+                            <span class="font-medium">每天自選 2.5 小時</span>
+                        </li>
+                        <li class="flex justify-between border-b border-[rgba(32,32,32,0.05)] pb-2">
+                            <span class="text-[#727272]">排班彈性</span>
+                            <span class="font-medium">空檔隨時排 / 預約制</span>
+                        </li>
+                        <li class="flex justify-between border-b border-[rgba(32,32,32,0.05)] pb-2">
+                            <span class="text-[#727272]">週末休息</span>
+                            <span class="font-medium">固定週一至週五</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Salary & Rewards -->
+                <div class="bg-white p-6 rounded-2xl border-[2px] border-[#D9AC48] border-opacity-20 shadow-sm">
+                    <h3 class="text-lg font-bold mb-6 accent-text">薪資與獎勵</h3>
+                    <div class="flex items-baseline gap-2 mb-4">
+                        <span class="text-3xl font-bold">NT$295</span>
+                        <span class="text-gray-400">—</span>
+                        <span class="text-3xl font-bold">335</span>
+                        <span class="text-sm text-gray-500">/ 時</span>
+                    </div>
+                    <ul class="space-y-3 text-[13px] text-[#4D4D4D]">
+                        <li class="flex items-center gap-2">✨ 專業加成：最高可達 $385</li>
+                        <li class="flex items-center gap-2">✨ 全勤紅包：穩定排班享獎勵金</li>
+                        <li class="flex items-center gap-2">✨ 專屬福利：全系列產品員工價</li>
+                    </ul>
+                </div>
+
+                <!-- Requirements -->
+                <div>
+                    <h3 class="text-lg font-bold mb-6 text-center">為何我們需要這個角色？</h3>
+                    <div class="space-y-3">
+                        <div class="bg-[#FDFBFA] p-4 rounded-lg border border-[rgba(32,32,32,0.05)] text-center text-[14px]">
+                            喜歡動物、對寵物產業有高度熱忱
+                        </div>
+                        <div class="bg-[#FDFBFA] p-4 rounded-lg border border-[rgba(32,32,32,0.05)] text-center text-[14px]">
+                            文字有親和力、具備良好溝通邏輯
+                        </div>
+                        <div class="bg-[#FDFBFA] p-4 rounded-lg border border-[rgba(32,32,32,0.05)] text-center text-[14px]">
+                            細心負責，能精準處理訂單細節
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Bottom CTA -->
+    <footer class="bg-white py-20 border-t border-[rgba(32,32,32,0.05)] text-center">
+        <div class="section-container">
+            <h2 class="text-2xl font-bold mb-8">立刻加入毛星球</h2>
+            <a href="https://lin.ee/Wm6I3PJ" class="cta-button inline-flex items-center justify-center px-10 py-4 rounded-full font-semibold tracking-wider text-sm mb-12">
+                 立即點擊應徵
+            </a>
+            <div class="decoration-line mb-8"></div>
+            <p class="text-[12px] text-[#9C9C9C] tracking-[0.1em] mb-4">
+                © 毛星球 PET PLANET. ALL RIGHTS RESERVED.
+            </p>
+
+           
+        </div>
+    </footer>
+
+    <script>
+        // 圖片處理邏輯：轉換 Base64 或 延遲加載優化
+        const img = document.getElementById(`main-image`);
+        const loader = document.getElementById(`image-loader`);
+        
+        async function convertAndShow() {
+            try {
+                const imageUrl = `https://api.kuse.ai/api/folder/v1/file/5862901076ba6f53da43357a8860bf3055107872ec1038a5bdc61b6c2e7ce072_3027764.jpeg`;
+                
+                // 嘗試獲取圖片
+                const response = await fetch(imageUrl);
+                const blob = await response.blob();
+                
+                // 轉換為 Base64 (用戶特別要求技術細節)
+                const reader = new FileReader();
+                reader.onloadend = () => {
+                    img.src = reader.result;
+                    img.classList.remove(`opacity-0`);
+                    loader.style.display = `none`;
+                };
+                reader.readAsDataURL(blob);
+            } catch (error) {
+                console.error(`Base64 conversion failed, falling back to direct URL`, error);
+                // 降級處理：直接顯示
+                img.src = `https://api.kuse.ai/api/folder/v1/file/5862901076ba6f53da43357a8860bf3055107872ec1038a5bdc61b6c2e7ce072_3027764.jpeg`;
+                img.onload = () => {
+                    img.classList.remove(`opacity-0`);
+                    loader.style.display = `none`;
+                };
+            }
+        }
+
+        // 初始化
+        document.addEventListener(`DOMContentLoaded`, () => {
+            convertAndShow();
+        });
+    </script>
+    <script src="https://cdn.kuse.ai/sdk.prd.js"></script>
+</body>
+</html>
